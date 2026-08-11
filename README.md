@@ -14,13 +14,14 @@ submission to the RoboPay bounty. It lives independently of any fork so the
 work is provably authored by EslaM-X, timestamped by git history, and tagged
 for release.
 
-## The 7 skills
+## The 8 skills
 
 | skill | what happens | measured |
 |---|---|---|
 | `wave` | front-right paw lifts in an arc, body-weight compensated | pawLift 0.212 m, body stable at 0.432 m |
 | `sit` | crouch into a sit posture, then return | sitDepth 0.133 m |
 | `stand` | return to the home standing stance | standHeight 0.435 m |
+| `stop` | safe stop: halt motion, return to the stable home stance | halted at 0.434 m |
 | `bow` | play bow (front dips, hind stays up) | bowPitchDeg 16.9 deg |
 | `nod` | full-body greeting bob | nodDepth 0.055 m |
 | `turn_to_face` | yaw toward `headingDeg`; reports achieved yaw + residual honestly | 10.7 deg toward heading 30 |
