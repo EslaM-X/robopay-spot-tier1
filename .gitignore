@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.b64
+keys/
+logs/
+dist/
+node_modules/
