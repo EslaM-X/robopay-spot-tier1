@@ -1,7 +1,7 @@
 # 🦾 RoboPay Spot Tier-1 — Boston Dynamics Spot, paid embodied skills in simulation
 
 > **Profile:** `boston_dynamics.spot.mujoco-pybullet-sim.v1`
-> **Scope:** simulator-only · 7 priced skills · MuJoCo + PyBullet · x402 payment gate
+> **Scope:** simulator-only · 8 priced skills · MuJoCo + PyBullet · x402 payment gate
 
 A paid RoboPay action arriving on the Zenoh topic `robot/tunnel/action` drives
 the **official** MuJoCo Spot model (`google-deepmind/mujoco_menagerie`
