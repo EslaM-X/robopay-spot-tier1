@@ -1,5 +1,7 @@
 # 🦾 RoboPay Spot Tier-1 — Boston Dynamics Spot, paid embodied skills in simulation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![CI](https://github.com/EslaM-X/robopay-spot-tier1/actions/workflows/spot-simulation-tests.yml/badge.svg)](https://github.com/EslaM-X/robopay-spot-tier1/actions)
+
 > **Profile:** `boston_dynamics.spot.mujoco-pybullet-sim.v1`
 > **Scope:** simulator-only · 8 priced skills · MuJoCo + PyBullet · x402 payment gate
 
