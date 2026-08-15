@@ -76,7 +76,7 @@ failure. CI (`spot-simulation-tests`) runs the full suite on `ubuntu-latest`.
 ```
 registry/vendors/boston_dynamics/spot/boston_dynamics.spot.mujoco-pybullet-sim.v1/
     robot.profile.yaml      robot identity + Zenoh runtime
-    skills.yaml             the 7 skills, params, limits
+    skills.yaml             the 8 skills, params, limits
     functions.yaml          agent REST contract (/action, 402)
     payment-policy.yaml     x402 pricing + settle-on-success rule
     execution-mapping.yaml  skill → simulator runtime + metrics
