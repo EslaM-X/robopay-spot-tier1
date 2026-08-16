@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a reproducible bug in the Spot Tier-1 simulator
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. A good bug report includes the exact way to
+        reproduce it offline — the test suite never requires network or keys.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the unexpected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: |
+        Paste a minimal script or test that reproduces the bug offline.
+        The simulator is fully offline-testable — please keep it that way.
+      placeholder: |
+        cd simulation/spot
+        python3 test_spot_control.py
+        # → AssertionError: pawLift ... expected
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Skill controller (simulation/spot)
+        - Payment gate (payment_gate.py)
+        - Zenoh link / tunnel (robopay_link.py)
+        - Sim-to-sim (PyBullet)
+        - Registry profile (skills.yaml, functions.yaml)
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, and whether setup.sh completed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I can reproduce this offline (no network, no API keys)
+          required: true
+        - label: I ran the test suite and this is unrelated to a known limitation
+          required: true

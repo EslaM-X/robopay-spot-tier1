@@ -98,6 +98,15 @@ docs/images/flow.png        architecture diagram
 - Sim-to-sim comparison: `simulation/pybullet/sim2sim_report.json`
 - Architecture diagram: `docs/images/flow.png`
 
+## Contributing
+
+Open source, licensed MIT. New skills, payment-gate hardening, and sim-to-sim
+improvements are welcome. Start with
+[CONTRIBUTING.md](CONTRIBUTING.md) and the
+[`good first issue`](https://github.com/EslaM-X/robopay-spot-tier1/labels/good%20first%20issue)
+label. Please read the [code of conduct](CODE_OF_CONDUCT.md) and report
+vulnerabilities privately per [SECURITY.md](SECURITY.md).
+
 ## License
 
 MIT — © 2026 EslaM-X 🇪🇬
