@@ -1,0 +1,17 @@
+labels: [discussion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome to the robopay-spot-tier1 discussions
+
+        Paid embodied skills for the Boston Dynamics Spot — MuJoCo + PyBullet,
+        x402 gate.
+
+        - **Q&A** — ask anything about installing, running, or extending the simulator.
+        - **Ideas** — proposals for new skills, payment rules, or sim-to-sim features.
+        - **Show and tell** — share the paid-action runs you produce with it.
+        - **Feedback** — what gets in the way of using it in your RoboPay integration?
+
+        Before posting, skim the [README](../../README.md) and
+        [ROADMAP](../../ROADMAP.md).
